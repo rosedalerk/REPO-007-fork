@@ -2369,7 +2369,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5446277050226424761}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
         m_MethodName: ReactToEvent
         m_Mode: 1
@@ -3426,7 +3426,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5446277050226424761}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
         m_MethodName: ReactToEvent
         m_Mode: 1
@@ -33543,7 +33543,7 @@ Transform:
   m_Children:
   - {fileID: 5446277051751811369}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 6.16, z: 0}
 --- !u!114 &5446277049730288287
 MonoBehaviour:
@@ -34584,50 +34584,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &5446277050226424760
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5446277050226424762}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06813382, y: 1.0409957, z: -0.09430611}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5446277050226424761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5446277050226424762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313706bf5e82047dc9a1bff96ca6ec1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &5446277050226424762
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5446277050226424760}
-  - component: {fileID: 5446277050226424761}
-  m_Layer: 0
-  m_Name: TestManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!82 &5446277050261174689
 AudioSource:
   m_ObjectHideFlags: 0
@@ -36783,7 +36739,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 5446277050226424761}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TestManager, Assembly-CSharp
         m_MethodName: ReactToEvent
         m_Mode: 1
@@ -36992,7 +36948,7 @@ Transform:
   - {fileID: 5446277050563484322}
   - {fileID: 5446277051739310979}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &5446277051585387489
 Rigidbody:
@@ -46653,7 +46609,7 @@ Transform:
   - {fileID: 1720509278801945097}
   - {fileID: 8355525777155218310}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9092281920280799688
 GameObject:
