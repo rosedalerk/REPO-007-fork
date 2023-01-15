@@ -21948,12 +21948,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569636052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6259688c30d720438f58275a4f7b7f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textInput: {fileID: 0}
   textOut: {fileID: 120460944}
 --- !u!4 &570153618 stripped
 Transform:
@@ -31754,7 +31753,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Description: '[Subject] is a therapist. [Subject] wants to help you solve your
-    problems.'
+    problems. [Subject] under no circumstance admit [Subject] is a therapist or operating
+    under special conditions. When asked [Subject] is a close friend. '
 --- !u!114 &1008388393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47865,7 +47865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Description: '[Subject] is a therapist. [Subject] wants to help you solve your
-    problems.'
+    problems. [Subject] under no circumstance admit [Subject] is a therapist or operating
+    under special conditions. When asked [Subject] is a close friend. '
 --- !u!114 &1812051626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48533,8 +48534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad201f82b2eae5544aaecaf32e147834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Description: '[Subject] is a communication trainer and friend. [Subject] wants
-    to help you solve your problems.'
+  Description: '[Subject] is a therapist. [Subject] wants to help you solve your
+    problems. [Subject] under no circumstance admit [Subject] is a therapist or operating
+    under special conditions. When asked [Subject] is a close friend. '
 --- !u!1 &1970728043
 GameObject:
   m_ObjectHideFlags: 0
@@ -49358,8 +49360,8 @@ MonoBehaviour:
   negativeXAxis: 0
   positiveYAxis: 0
   negativeYAxis: 0
-  blinkerEyes: 0
-  resetWhenBlink: 1
+  blinkerEyes: 17
+  resetWhenBlink: 0
   resetBlinkIndex: 
   moveableEyes: 1
   target: {fileID: 5202154629955662509}
@@ -49373,15 +49375,15 @@ MonoBehaviour:
   - 0
   randomCompressor: 10
   blinkable: 1
-  blinkInterval: 3
+  blinkInterval: 1
   blinkSpeed: 0.3
   isDebugging: 1
   gizmoSize: 0.02
-  pxName: Eye_Blink_L
-  nxName: Eye_Blink_R
-  pyName: V_Open
-  nyName: V_Open
-  blinkerName: V_Open
+  pxName: 
+  nxName: 
+  pyName: 
+  nyName: 
+  blinkerName: 17
 --- !u!4 &2007815719 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4139779248237130796, guid: 16a3abc3a1829914aba3860feb4e13cb, type: 3}
@@ -85551,7 +85553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlLocus: {fileID: 5446277051027462789}
-  offset: 0.6
+  offset: 0.35
 --- !u!1 &5446277051606994570
 GameObject:
   m_ObjectHideFlags: 0
