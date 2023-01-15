@@ -29,7 +29,7 @@ namespace OpenAI_Unity
 
         public override string InjectRestartText { get => "\nHuman: "; set => throw new System.NotImplementedException(); }
 
-        public override string[] StopSequences { get => new string[] { "\n", "Human:" }; set => throw new System.NotImplementedException(); }
+        public override string[] StopSequences { get => null; set => throw new System.NotImplementedException(); }
 
         public override int NumOutputs { get => 1; set => throw new NotImplementedException(); }
 

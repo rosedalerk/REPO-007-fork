@@ -14,11 +14,11 @@ TagManager:
   - 
   - 
   - 
+  - HiddenMesh
+  - Character
+  - MirroredCharacter
   - 
-  - 
-  - 
-  - 
-  - 
+  - EyeTracking
   - 
   - 
   - 
